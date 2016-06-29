@@ -196,24 +196,150 @@
 						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14871.122386279412!2d-157.84145302800235!3d21.28015071853494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c006df4e5c129af%3A0x4633ddc52a688878!2zV2Fpa8Sra8SrLCBIb25vbHVsdSwgSEkgOTY4MTUsIFVTQQ!5e0!3m2!1sen!2sin!4v1467114890337" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-	    	</div><!--end tab pane-->
+
+	    	</div><!--end tab1 pane-->
 				<div class="tab-pane" id="tab2">
 					<h4>A left floated picture<small> Using placehold.it</small></h4>
 					<img src="http://placehold.it/140" class="thumbnail pull-left">
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				 <hr>
-				 <a href="myModal" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span>Click for Modal window!</a>
-				</div><!--tab -pane tab2 ends>
+				 <a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span>Click for Modal window!</a>
+        <div class="modal fade" id="myModal">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title">A modal window</h4>
+							</div><!--modal header ends-->
+							<div class="modal-body">
+								<h4>Text in a modal</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+								<h4>Popovers in a modal</h4>
+								<a href="#" class="btn btn-danger pop" data-toggle="popover" data-placement="top" data-original-title="you clicked it" data-content="I knew you would.">Don't click this button</a>
+								<h4>Tooltips in a modal</h4>
+								<a href="#"  data-original-title="Tooltip" rel="tooltip">This link </a>should have tooltip like<a href="#"  data-original-title="wohoo" rel="tooltip"> this one</a>
+								<hr>
+								<p><small class="text-muted">PS. This form doesn't do anything</small></p>
+								<form class="form-horizontal">
+									<div class="form-group">
+										<label class="col-lg-2 control-label" for="inputName">Name</label>
+										<div class="col-lg-10"><input class="form-control" id="inputName" placeholder="Name" type="text">
+										</div>	<!--col-lg-10 ends-->
+									</div><!--form group ends-->
+									<div class="form-group">
+										<label class="col-lg-2 control-label" for="inputEmail">Email</label>
+										<div class="col-lg-10"><input class="form-control" id="inputEmail" placeholder="Email" type="email">
+									  </div>	<!--col-lg-10 ends-->
+									</div><!--form group ends-->
+									<div class="form-group">
+										<label class="col-lg-2 control-label" for="inputMessage">Message</label>
+										<div class="col-lg-10"><textarea class="form-control" id="inputMessage" placeholder="Message" rows="3"></textarea>
+											<button class="btn btn-success pull-right" type="submit"> Send!</Button>
+											</div>	<!--col-lg-10 ends-->
+									</div><!--form group ends-->
+								</form><!--horizontal-form ends-->
+</hr>
+							</div><!--modal-body ends-->
+							<div class="modal-footer">
+								<button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
+								<button class="btn btn-primary" type="button">Save Changes</button>
+							</div><!--modal footer ends here-->
+						</div><!--modal content ends-->
+					</div><!--modal dialog ends-->
+				</div><!--modal fade ends-->
+
+			</div><!--tab -pane tab2 ends-->
 			</div><!--end tab content-->
 	</div><!--end tabbale-->
 	</div><!--col-sm-6 ends-->
+	<div class="col-sm-6">
+		<h3>Some Text Info</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<h4> A List Group </h4>
+		<div class="list-group">
+			<a href="#" class="list-group-item">
+				<h4 class="list-group-item-heading">Kale</h4>
+				<p class="list-group-item-text">i dont know what this kale is all about. I am just writing it like this only.</p>
+			</a>
+			<a href="#" class="list-group-item">
+				<h4 class="list-group-item-heading">raspberry pie</h4>
+				<p class="list-group-item-text">This is one of the development kits my friend Amninder Singh is working upon nowadays.</p>
+			</a>
+			<a href="#" class="list-group-item">
+				<h4 class="list-group-item-heading">ARM-7</h4>
+				<p class="list-group-item-text">My Capstone project was developed using this ARM-7 development kit. ></p>
+			</a>
+		</div>	<!--list-group ends here-->
+		<h5> A small heading </h5>
+		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div><!--col-sm-6 ends-->
 </div>
-
+<hr>
 <div class="row" id="moreCourses">
-</div>
+	<div class="col-12">
+		<h3>Learn more</h3>
+		<div class="thumbnails row">
+			<div class="col-6">
+				<div class="thumbnail">
+					<img src="images/item_webhosting101.jpg" alt="web hosting">
+					<div class="label label-success price"><span class="glyphicon glyphicon-tag"></span><sup>$</sup>39</div>
+					<div class="caption">
+						<h3> Web hosting 101</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<p><a href="" target="_blank" class="btn btn-small btn-primary">Take courses</a><a href="" target="_blank" class="btn btn-small btn-link">Learn more</a></p>
+					</div><!--ending caption-->
+				</div><!--ending thumbnail-->
+			</div><!--ending col-6-->
+
+			<div class="col-6">
+				<div class="thumbnail">
+					<img src="images/item_psd2html5.jpg" alt="web hosting">
+					<div class="label label-info price"><span class="glyphicon glyphicon-tag"></span>Free</div>
+					<div class="caption">
+						<h3> Web hosting 101</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<p><a href="" target="_blank" class="btn btn-small btn-primary">Take courses</a><a href="" target="_blank" class="btn btn-small btn-link">Learn more</a></p>
+					</div><!--ending caption-->
+				</div><!--ending thumbnail-->
+			</div><!--ending col-6-->
+		</div><!--ending thumbnails-->
+	</div><!--ending col-12-->
+</div><!--ending more couses-->
 	</div><!--container ends-->
 	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-2">
+					<h6>Copyright &copy;2013{name}</h6>
+				</div><!--col-sm-2 ends-->
+				<div class="col-sm-4">
+					<h6>About us</h6>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div><!--end col-sm-4-->
+				<div class="col-sm-2">
+					<h6>Navigation</h6>
+					<ul class="unstyled">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Services</a></li>
+						<li><a href="#">Links</a></li>
+						<li><a href="#">Contacts</a></li>
+					</ul>
+				</div><!--col-sm-2 ends-->
+				<div class="col-sm-2">
+					<h6>Follow us</h6>
+					<ul class="unstyled">
+						<li><a href="#">Twitter</a></li>
+						<li><a href="#">Facebook</a></li>
+						<li><a href="#">Google+</a></li>
+					</ul>
+				</div><!--col-sm-2 ends-->
+				<div class="col-sm-2">
+					<h6>Coded with <span class="glyphicon glyphicon-heart"> by brad</h6>
+				</div><!--col-sm-2 ends-->
+			</div><!--row ends-->
+		</div><!--container ends-->
+
 	</footer>
 
 
